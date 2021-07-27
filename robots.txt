@@ -1,0 +1,8 @@
+User-agent: *
+#list specific files robots are not allowed to index
+#
+Disallow: /exchange/completed*
+Disallow: /exchange/processing*
+Disallow: /exchange/waiting*
+
+Sitemap: https://godex.io/sitemap.xml
